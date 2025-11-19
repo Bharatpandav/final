@@ -1,4 +1,4 @@
-### 🚀 Forever Shopping – Full Stack E-commerce Website: Short Guide to Creating the Admin Folder
+### 🚀 DesiDrip – Full Stack E-commerce Website: Short Guide to Creating the Admin Folder
 
 #### Admin Part
 - step-1 : 
