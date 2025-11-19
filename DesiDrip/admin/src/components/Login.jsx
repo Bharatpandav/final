@@ -34,7 +34,7 @@ const Login = ({ setToken }) => {
       <div className="bg-white shadow-md rounded-lg px-8 py-6 max-w-md">
         {/* Logo/Image */}
         <img
-          src={assets.logo_login}
+          src={assets.login}
           alt="Admin Logo"
           className="mx-auto mb-1 w-50 h-15 object-contain "
         />

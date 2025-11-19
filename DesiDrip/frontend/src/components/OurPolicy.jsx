@@ -21,8 +21,10 @@ const OurPolicy = () => {
           alt="icon"
           className="w-12 m-auto mb-5"
         />
-        <p className="font-semibold">7 Days Return Policy</p>
-        <p className="text-gray-400">We provide 7 day free return policy</p>
+        <p className="font-semibold">5 Days Return Policy</p>
+        <p className="text-gray-400">We provide 5 day free return policy.
+          terms and conditions apply
+        </p>
       </div>
 
 

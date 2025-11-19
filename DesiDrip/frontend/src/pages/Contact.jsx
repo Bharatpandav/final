@@ -15,10 +15,10 @@ const Contact = () => {
 
         <div className='flex flex-col justify-center items-start gap-6'> 
           <p className='font-semibold text-xl'>Our Store</p>
-          <p className='text-gray-500'>Sector 10, Uttara Model Town <br />Dhaka-1230</p>
-          <p className='text-gray-500'>Tel: +8804875465 <br />Email: admin@gmail.com </p>
-          <p className='font-semibold text-xl text-gray-600'>Careers at Forever</p>
-          <p className='text-gray-500'>Learn more about our teams and job openings.</p>
+          <p className='text-gray-500'>sunjanpur<br />punjab</p>
+          <p className='text-gray-500'>Ph: 123456789 <br />Email: admin@gmail.com </p>
+          <p className='font-semibold text-xl text-gray-600'>Careers at DesiDrip</p>
+          <p className='text-gray-500'>More about our teams and job openings.</p>
 
             <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 '>Explore Jobs</button>
         

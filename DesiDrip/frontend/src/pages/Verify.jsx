@@ -19,12 +19,12 @@ const Verify = () => {
 
 
 
-    const verifyPayment = async () => {
+    const verify = async () => {
       try {
         if(!token){
             return null;
         }
-        const response = await axios.post(backendUrl + '/api/order/verifyStripe', {success, orderId}, {headers: {token}})
+        const response = await axios.post(backendUrl + '/api/order', {success, orderId}, {headers: {token}})
         if(response.data.success){
             setCartItems({});
             navigate('/orders');
@@ -40,7 +40,7 @@ const Verify = () => {
 
 
 useEffect(() =>{
-    verifyPayment();
+    verify();
 }, [token])
 
 

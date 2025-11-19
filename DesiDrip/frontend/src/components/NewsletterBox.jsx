@@ -8,12 +8,11 @@ const NewsletterBox = () => {
   return (
     <div className="text-center">
       <p className="text-2xl font-medium text-gray-800">
-        Subscribe now & get 20% off
+        Subscribe now 
       </p>
 
       <p className="text-2xl font-medium text-gray-800">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque,
-        nisi!
+        Add Email for be with Trend
       </p>
 
       <form

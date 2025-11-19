@@ -53,10 +53,10 @@ function Navbar() {
         </NavLink>
 
 
-        <NavLink target="_blank" to="https://forever-admin-omega-liard.vercel.app/" className="flex flex-col items-center gap-1 ">
-          <span  className="border px-5 text-sm py-1 rounded-full -mt-1">Admin Panel</span>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
-        </NavLink>
+          <a target="_blank" href="https://admin-desidrip-eta.vercel.app/" className="flex flex-col items-center gap-1 ">
+            <span  className="border px-5 text-sm py-1 rounded-full -mt-1">Admin Panel</span>
+            <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+          </a>
 
       </ul>
 

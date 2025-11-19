@@ -27,7 +27,7 @@ const About = () => {
       </div>
       
       <div className='text-xl py-4'>
-        <Title text1={'WHY'} text2={'CHOSE US'}/>
+        <Title text1={'WHY'} text2={'DesiDrip'}/>
       </div>
 
       <div className='flex flex-col md:flex-row text-sm mb-20'>  
