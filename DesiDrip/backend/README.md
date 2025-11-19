@@ -34,10 +34,6 @@ Close all the frontend file and folder then create backend folder. After create 
 
   - `nodemon` - Utility to automatically restart the Node.js server during development (usually installed as a dev dependency).
 
-  - `razorpay` - Official Node.js SDK for Razorpay payment gateway.
-
-  - `stripe` - Official Stripe API library for payments.
-
   - `validator` - Library for string validation and sanitization.
 
   - `cloudinary` - SDK for Cloudinary (image/video upload and management).
