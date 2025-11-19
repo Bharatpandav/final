@@ -1,4 +1,4 @@
-### 🚀 Forever Shopping – Full Stack E-commerce Website: Short Guide to Creating the Backend Folder
+### 🚀 DesiDrip – Full Stack E-commerce Website: Short Guide to Creating the Backend Folder
 
 #### Backend Part
 
