@@ -22,10 +22,6 @@ function Navbar() {
     setToken("");
     // toast.success("Logout successful");
     setCartItems({});
-    
-    
-
-
   };
 
   return (
@@ -51,13 +47,10 @@ function Navbar() {
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-
-
           <a target="_blank" href="https://admin-desidrip-eta.vercel.app/" className="flex flex-col items-center gap-1 ">
             <span  className="border px-5 text-sm py-1 rounded-full -mt-1">Admin Panel</span>
             <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
           </a>
-
       </ul>
 
       <div className="flex items-center gap-6">
@@ -90,8 +83,6 @@ function Navbar() {
           }
 
         </div>
-
-
 
         {/* card icon start */}
         <Link to="/cart" className="relative">
@@ -161,7 +152,7 @@ function Navbar() {
             <NavLink
             onClick={() => setVisible(false)}
             className="py-2 pl-6 border"
-            to="https://forever-admin-omega-liard.vercel.app/"
+            to="https://admin-desidrip-eta.vercel.app/"
           >
             Admin Panel
           </NavLink>
