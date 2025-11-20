@@ -119,12 +119,6 @@ const getCartAmount = () => {
 
 
 
-
-
-
-
-
-
   // Fetch products data from the backend
   const getProductsData = async () => {
     try {
@@ -140,10 +134,6 @@ const getCartAmount = () => {
       toast.error(error.nessage);
     }
   };
-
-
-
-
 
   
   // Fetch user cart data from the backend
