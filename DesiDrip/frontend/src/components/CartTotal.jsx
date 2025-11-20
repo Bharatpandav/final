@@ -6,10 +6,6 @@ const CartTotal = () => {
 
 const {currency, delivery_fee, getCartAmount} = useContext(ShopContext);
 
-
-
-
-
   return (
     <div className='w-full'>
         <div className='text-2xl'>
@@ -22,14 +18,12 @@ const {currency, delivery_fee, getCartAmount} = useContext(ShopContext);
                 <p>Total Amount:</p>
                 <p>{currency}{getCartAmount()}.00</p>
             </div>
-
             <hr />
 
             <div className='flex justify-between'>
             <p>Shipping Fee:</p>
             <p>{currency}{delivery_fee}.00</p>
             </div>
-
             <hr />
 
             <div className='flex justify-between'>
