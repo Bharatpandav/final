@@ -15,10 +15,6 @@ const Verify = () => {
     const orderId = searchParams.get("orderId");
 
 
-
-
-
-
     const verify = async () => {
       try {
         if(!token){
@@ -42,9 +38,6 @@ const Verify = () => {
 useEffect(() =>{
     verify();
 }, [token])
-
-
-
 
   return (
     <div>
