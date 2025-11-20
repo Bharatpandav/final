@@ -79,8 +79,6 @@ const ShopContextProvider = (props) => {
   };
 
 
-
-
   // update quantity of the cart item
   const updateQuantity = async (itemId, size, quantity) => {
     let cartData = structuredClone(cartItems);
@@ -99,17 +97,12 @@ const ShopContextProvider = (props) => {
     }
 };
 
-  
-
-
-
-
 
 const getCartAmount = () => {
   let totalAmount = 0;
   for (const itemId in cartItems) {
     const itemInfo = products.find((product) => product._id === itemId);
-    if (!itemInfo) continue; // ⚠️ যদি itemInfo না পাওয়া যায়, তাহলে skip
+    if (!itemInfo) continue;
     for (const size in cartItems[itemId]) {
       try {
         const quantity = cartItems[itemId][size];
